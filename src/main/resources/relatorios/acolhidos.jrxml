@@ -195,12 +195,6 @@
 			<element kind="staticText" uuid="550f4306-69cd-4fc9-9576-ec0a56ad43b8" x="290" y="110" width="100" height="20" vTextAlign="Middle">
 				<text><![CDATA[Data de saída: ]]></text>
 			</element>
-			<element kind="textField" uuid="3ae59ef0-4f3c-4e63-9826-6da7ba147224" x="360" y="200" width="100" height="20">
-				<expression><![CDATA[$F{excluido} ? "Sim" : "Não"]]></expression>
-			</element>
-			<element kind="staticText" uuid="21dc0876-f0b4-4b4a-a691-471e8cf33984" x="290" y="200" width="70" height="20">
-				<text><![CDATA[Desacolhido: ]]></text>
-			</element>
 			<element kind="textField" uuid="9afa674d-fe16-43e8-8fe5-4c464461df44" x="340" y="183" width="184" height="16">
 				<expression><![CDATA[$F{alergias} == null ? "Não se aplica" : $F{alergias}]]></expression>
 			</element>

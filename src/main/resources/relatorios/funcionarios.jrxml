@@ -195,12 +195,6 @@
 			<element kind="staticText" uuid="94d7f59d-223e-4ba8-a140-308ba0fbe530" x="415" y="90" width="24" height="20" vTextAlign="Middle">
 				<text><![CDATA[CH:]]></text>
 			</element>
-			<element kind="textField" uuid="9497acd2-79d9-42f8-bd82-de00ce511600" x="130" y="150" width="100" height="20">
-				<expression><![CDATA[$F{excluido} ? "Sim" : "Não"]]></expression>
-			</element>
-			<element kind="staticText" uuid="29225931-5b35-400d-8842-d3fa07fc43a3" x="30" y="150" width="100" height="20">
-				<text><![CDATA[Desabilitado: ]]></text>
-			</element>
 		</band>
 	</detail>
 	<columnFooter splitType="Stretch"/>
