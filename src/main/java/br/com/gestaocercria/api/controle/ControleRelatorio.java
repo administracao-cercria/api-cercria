@@ -60,6 +60,7 @@ public class ControleRelatorio {
                             a.alergias,
                             a.excluido
                         FROM acolhido a
+                        WHERE a.excluido = false;
                         ORDER BY a.nome
                         """;
 
@@ -91,6 +92,7 @@ public class ControleRelatorio {
                             f.data_fim_contrato,
                             f.excluido
                         FROM funcionario f
+                        WHERE f.excluido = false;
                         ORDER BY f.nome
                         """;
 
@@ -128,6 +130,7 @@ public class ControleRelatorio {
                             ) AS responsaveis
 
                         FROM evento e
+                        WHERE e.excluido = false;
                         ORDER BY e.data, e.hora, e.nome
                         """;
 
@@ -144,6 +147,7 @@ public class ControleRelatorio {
                             p.unidade_medida,
                             p.excluido
                         FROM produto p
+                        WHERE p.excluido = false;
                         ORDER BY p.nome
                         """;
 
@@ -161,6 +165,7 @@ public class ControleRelatorio {
                             p.dt_aquisicao,
                             p.excluido
                         FROM patrimonio p
+                        WHERE p.excluido = false;
                         ORDER BY p.tombamento
                         """;
 
@@ -177,6 +182,7 @@ public class ControleRelatorio {
                             m.unidade_medida,
                             m.excluido
                         FROM medicamento m
+                        WHERE m.excluido = false;
                         ORDER BY m.nome
                         """;
 
